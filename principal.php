@@ -84,12 +84,12 @@
                     <div class="tab-pane fade" id="v-pills-catalogo-servicios" role="tabpanel" aria-labelledby="v-pills-catalogo-servicios-tab">
 
                         <div class="container-fluid">
-                            <div class="h4 text-center mb-5">
+                            <div class="h4 text-center">
                                 <i class="text-blue fa fa-quote-left" aria-hidden="true"></i> El Destino Al Viajar Nunca Es El
                                 Lugar, Si No Una Nueva Forma De Ver Las Cosas <i class="text-blue fa fa-quote-right" aria-hidden="true"></i>
                             </div>
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 mt-5">
                                     <div class="card">
                                         <img src="imagenes/Matrimonial.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
@@ -104,7 +104,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 mt-5">
                                     <div class="card">
                                         <img src="imagenes/Clásica.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
@@ -118,7 +118,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 mt-5">
                                     <div class="card">
                                         <img src="imagenes/Economica.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
