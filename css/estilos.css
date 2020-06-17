@@ -1,0 +1,181 @@
+body{
+    background-image: url("imagenes/hola.jpeg");
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main-section{
+   margin: 0 auto;
+   margin-top: 25%;
+   padding: 0;
+}
+.modal-content{
+    background-color: #4d83bd;
+    opacity: .90;
+    padding: 0 20px;
+    box-shadow: 0px 0px 10px #848484;
+}
+.icono-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+    
+}
+.icono-img img{
+width: 100px;
+height: 100px;
+box-shadow: 0px 0px 3px #848484;
+border-radius: 50%;
+}
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 75px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+.form-group#usuario-group::before{
+    content: "\f007";
+    
+}
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+hr{
+    color: aliceblue;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/* Nuevo usuario */
+.form-group#nombre-nuevo-usuario::before{
+    content: '\f1b2';
+}
+
+.form-group#usuario-nuevo-usuario::before{
+    content: '\f007';
+}
+.form-group#cargo-nuevo-usuario::before{
+    content: '\f007';
+}
+
+.form-group#contrasena-nuevo-usuario::before{
+    content: '\f023';
+}
+
+.icono-nuevo-usuario{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+/*Fin Nuevo Usuario*/
+
+/* Formulario matrimonial */
+.icono-formulario-matrimonial{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.form-group#nombre-matrimonial::before, .form-group#acompanante-matrimonial::before{
+    content: '\f1b2';
+}
+
+.form-group#apellido-matrimonial::before, .form-group#apellido-acompanante-matrimonial::before{
+    content: '\f2b9';
+}
+
+.form-group#numero-matrimonial::before{
+    content: '\f292';
+}
+
+.form-group#direccion-matrimonial::before{
+    content: '\f041';
+}
+/*Fin Formulario Matrimonial*/
+
+/* Formulario Clásica */
+.icono-formulario-clasica{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.form-group#nombre-clasica::before, .form-group#acompanante-clasica::before{
+    content: '\f1b2';
+}
+
+.form-group#apellido-clasica::before, .form-group#apellido-acompanante-clasica::before{
+    content: '\f2b9';
+}
+
+.form-group#numero-clasica::before{
+    content: '\f292';
+}
+
+.form-group#direccion-clasica::before{
+    content: '\f041';
+}
+/*Fin Formulario Clásica*/
+
+/* Formulario Económica */
+.icono-formulario-economica{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.form-group#nombre-economica::before, .form-group#acompanante-economica::before{
+    content: '\f1b2';
+}
+
+.form-group#apellido-economica::before, .form-group#apellido-acompanante-economica::before{
+    content: '\f2b9';
+}
+
+.form-group#numero-economica::before{
+    content: '\f292';
+}
+
+.form-group#direccion-economica::before{
+    content: '\f041';
+}
+/*Fin Formulario Económica*/
+
+/*Formateo de Bootstrap*/
+.nav-link.active.show, .btn-primary{
+    background-color: #4d83bd !important;
+}
+
+.text-blue{
+    color: #4d83bd;
+}
+
+.text-green{
+    color: #51C39E;
+}
+
+.btn-secondary{
+    background-color: #51C39E !important;
+}
+.fondo{
+    Display: block;
+    Margin: auto;
+}
+.team-icono{
+    Display: block;
+    Margin: auto;
+}
+.clientes-icono{
+    Display: block;
+    Margin: auto;
+}
