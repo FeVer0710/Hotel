@@ -30,7 +30,7 @@
                         <input type="password" class="form-group" name="contrasenaUsuario"
                             placeholder="Contraseña de Usuario">
                     </div>
-                    <button type="submit" class="btn btn-secondary"> <i class="fas fa-sign-in-alt"></i> Iniciar Sesion
+                    <button type="submit" class="btn btn-secondary"> <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
                     </button>
                     <br><br>
                     <p class="mb-5"> Bienvenido </p>
